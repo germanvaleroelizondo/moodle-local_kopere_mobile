@@ -22,6 +22,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+// No login check is expected here bacause token validation.
+// @codingStandardsIgnoreLine
 require ("../../config.php");
 
 header("Cache-Control: no-cache, must-revalidate");
