@@ -47,9 +47,7 @@
 </div>
 
 {{#js}}
-    //
-    <script>
-        require(['jquery', "core/notification"], function($, Notification) {
-            $("#sesskey").val("{{{sesskey}}}")
-        });
+    require(['jquery', "core/notification"], function($, Notification) {
+        $("#sesskey").val("{{{sesskey}}}")
+    });
 {{/js}}
