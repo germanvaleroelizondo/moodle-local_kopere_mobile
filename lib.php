@@ -37,11 +37,7 @@ function local_kopere_mobile_before_standard_html_head() {
     $PAGE->requires->js_call_amd('local_kopere_mobile/picture', 'move');
 
     if (isset($SESSION->kopere_mobile_preserve_page) && $SESSION->kopere_mobile_preserve_page) {
-        $preservepage = $SESSION->kopere_mobile_preserve_page;
-
-        if (strpos($_SERVER['REQUEST_URI'], $preservepage) !== false) {
-            // Não faz nada aqui.
-        } else if (isset($SESSION->kopere_mobile_redirect_page[5])) {
+        if (isset($SESSION->kopere_mobile_redirect_page[5])) {
             header("Location: {$SESSION->kopere_mobile_redirect_page}");
             header("kopere_mobile-status: event_observers::process_event");
             die();

@@ -303,10 +303,7 @@ function localpluginfile_file_pluginfile($relativepath, $forcedownload, $preview
                 if (!has_capability('moodle/site:accessallgroups', $context) && !groups_is_member($event->groupid, $USER->id)) {
                     kopere_send_file_not_found();
                 }
-            } else if ($event->eventtype === 'course' || $event->eventtype === 'site') {
-                // Ok. Please note that the event type 'site' still uses a course context.
-            } else {
-                // Some other type.
+            } else if ($event->eventtype !== 'course' && $event->eventtype !== 'site') {
                 kopere_send_file_not_found();
             }
 
@@ -410,10 +407,7 @@ function localpluginfile_file_pluginfile($relativepath, $forcedownload, $preview
 
             $userid = $context->instanceid;
 
-            if ($USER->id == $userid) {
-                // Always can access own.
-
-            } else if (!empty($CFG->forceloginforprofiles)) {
+      if ($USER->id != $userid && !empty($CFG->forceloginforprofiles)) {
                 require_login();
 
                 if (isguestuser()) {
