@@ -75,7 +75,8 @@ class mod_scorm extends \external_api {
                 "filename" => $file->filename,
                 "filesize" => $file->filesize,
                 "fileurl" =>
-                    "{$CFG->wwwroot}/pluginfile.php/{$context->id}/mod_scorm/content/{$file->itemid}{$file->filepath}{$file->filename}",
+                    "{$CFG->wwwroot}/pluginfile.php/{$context->id}/mod_scorm/content/" .
+                    "{$file->itemid}{$file->filepath}{$file->filename}",
             ];
         }
 
