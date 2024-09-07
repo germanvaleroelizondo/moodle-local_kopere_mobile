@@ -42,12 +42,6 @@
             <textarea name="motivo" id="motivo" style="width: 100%; min-height: 120px"></textarea>
         </div>
         <div><input type="submit" value="{{#str}}submit{{/str}}"></div>
-        <input type="hidden" name="sesskey" id="sesskey">
+        <input type="hidden" name="sesskey" id="sesskey" value="{{{sesskey}}}">
     </form>
 </div>
-
-{{#js}}
-    require(['jquery', "core/notification"], function($, Notification) {
-        $("#sesskey").val("{{{sesskey}}}")
-    });
-{{/js}}
