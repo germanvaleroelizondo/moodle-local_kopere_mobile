@@ -15,21 +15,21 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy Subsystem implementation for local_kopere_mobileapp.
+ * Privacy Subsystem implementation for local_kopere_mobile.
  *
  * @package    local_kopere_mobile
  * @copyright  2024 Eduardo Kraus {@link http://eduardokraus.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace local_kopere_mobileapp\privacy;
+namespace local_kopere_mobile\privacy;
 
 /**
- * The local_kopere_mobileapp module does not store any data.
+ * The local_kopere_mobile module does not store any data.
  *
- * @package  local_kopere_mobileapp
+ * @package   local_kopere_mobile
  * @copyright 2017 Eduardo Kraus {@link http://eduardokraus.com}
- * @license  http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {
     /**
@@ -38,7 +38,7 @@ class provider implements \core_privacy\local\metadata\null_provider {
      *
      * @return  string
      */
-    public static function get_reason() : string {
+    public static function get_reason(): string {
         return 'privacy:metadata';
     }
 }
