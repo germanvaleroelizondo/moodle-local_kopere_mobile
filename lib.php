@@ -30,21 +30,21 @@
  * @throws dml_exception
  */
 function local_kopere_mobile_before_standard_html_head() {
-    global $SESSION, $PAGE;
+    global $USER, $PAGE;
 
     ob_start();
 
     $PAGE->requires->js_call_amd('local_kopere_mobile/picture', 'move');
 
-    if (isset($SESSION->kopere_mobile_preserve_page) && $SESSION->kopere_mobile_preserve_page) {
-        if (isset($SESSION->kopere_mobile_redirect_page[5])) {
-            header("Location: {$SESSION->kopere_mobile_redirect_page}");
+    if (isset($USER->kopere_mobile_preserve_page) && $USER->kopere_mobile_preserve_page) {
+        if (isset($USER->kopere_mobile_redirect_page[5])) {
+            header("Location: {$USER->kopere_mobile_redirect_page}");
             header("kopere_mobile-status: event_observers::process_event");
             die();
         }
     }
 
-    if (isset($SESSION->kopere_mobile_mobile) && $SESSION->kopere_mobile_mobile) {
+    if (isset($USER->kopere_mobile_mobile) && $USER->kopere_mobile_mobile) {
         $PAGE->set_pagelayout('embedded');
         $return = "
             <meta http-equiv=\"Content-Security-Policy\"
@@ -72,9 +72,9 @@ function local_kopere_mobile_before_standard_html_head() {
  *
  */
 function local_kopere_mobile_before_http_headers() {
-    global $SESSION, $PAGE;
+    global $USER, $PAGE;
 
-    $iskoperemobilemobile = isset($SESSION->kopere_mobile_mobile) && $SESSION->kopere_mobile_mobile;
+    $iskoperemobilemobile = isset($USER->kopere_mobile_mobile) && $USER->kopere_mobile_mobile;
     if ($iskoperemobilemobile || optional_param("kopere_mobile_mobile", false, PARAM_INT)) {
 
         $PAGE->set_pagelayout('embedded');
