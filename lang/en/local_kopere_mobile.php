@@ -88,32 +88,7 @@ $string['lgpd_okok_msgdefault'] = '<p>Thank you for submitting your data deletio
 <p>Thank you for your understanding and trust in our platform. We are here to ensure a safe and transparent experience.</p>';
 
 
-$string['config_test_title']='Status das configurações necessárias para o funcionamento do APP';
-$string['config_test_correct']='Valor está incorreto para funcionamento do APP';
-$string['config_lgpd_reason']='Motivo da exclusão';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['config_test_']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
-$string['']='';
+$string['config_test_title'] = 'Status das configurações necessárias para o funcionamento do APP';
+$string['config_test_correct'] = 'Valor está incorreto para funcionamento do APP';
+$string['config_lgpd_reason'] = 'Motivo da exclusão';
+$string['privacy:metadata'] = 'The Plugin custom field plugin does not store any personal data';
