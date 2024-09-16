@@ -13,3 +13,12 @@ And the best part: even in **slow internet conditions**, like sailors on oil tan
 In summary, the **Kopere APP Mobile** is more than just an app; it's a study companion that will be with you anywhere, anytime. So, get ready for a lighter, more efficient, and reliable user experience, regardless of your internet connection! 🌟
 
 **Education without limits, at your own pace, with Kopere APP Mobile!** 🌍🚀
+
+## Prints
+
+![e](https://github.com/user-attachments/assets/9735c7eb-a7c6-4ab0-aa9f-95688f9313a6)
+![d](https://github.com/user-attachments/assets/4c27ada4-48a6-43e3-a44f-a17128d47442)
+![c](https://github.com/user-attachments/assets/20cebe44-a9a1-45fc-b557-e012db4337fa)
+![b](https://github.com/user-attachments/assets/805ddb17-8f06-4cda-99f0-a69c9f5f47ab)
+![a](https://github.com/user-attachments/assets/efd1824e-d942-4503-8b29-34fe9eecaa83)
+
