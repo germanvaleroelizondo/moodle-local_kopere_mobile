@@ -14,6 +14,10 @@ In summary, the **Kopere APP Mobile** is more than just an app; it's a study com
 
 **Education without limits, at your own pace, with Kopere APP Mobile!** 🌍🚀
 
+## Quer um APP para você?
+
+Entre em contato https://eduardokraus.com/contato
+
 ## Prints
 
 ![e](https://github.com/user-attachments/assets/9735c7eb-a7c6-4ab0-aa9f-95688f9313a6)
