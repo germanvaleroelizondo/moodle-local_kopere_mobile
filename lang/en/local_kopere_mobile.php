@@ -71,13 +71,13 @@ $string['lgpd_okok_msgdefault'] = '<p>Thank you for submitting your data deletio
 <p>If additional information is needed or if you have any questions, our team will contact you within the timeframe stipulated by law. Please keep your contact details updated to facilitate communication.</p>
 <p>Thank you for your understanding and trust in our platform. We are here to ensure a safe and transparent experience.</p>';
 $string['lgpd_text'] = 'Data deletion policy';
-$string['lgpd_text_desc'] = 'Describe the Data Deletion Policy in accordance with the LGPD in Moodle';
-$string['lgpd_text_msgdefault'] = '<p>In compliance with the General Data Protection Law (LGPD), this page aims to provide detailed information on how we handle and protect your personal data within the Moodle virtual environment. The LGPD\'s primary purpose is to ensure the privacy and security of personal information, promoting transparency and accountability in data processing.</p>
+$string['lgpd_text_desc'] = 'Describe the Data Deletion Policy in accordance with the General Data Protection Law in Moodle';
+$string['lgpd_text_msgdefault'] = '<p>In compliance with the General Data Protection Law (LGPD), this page aims to provide detailed information on how we handle and protect your personal data within the Moodle virtual environment. The General Data Protection Law\'s primary purpose is to ensure the privacy and security of personal information, promoting transparency and accountability in data processing.</p>
 <p>You have the right to request the deletion of your personal data stored in our system. However, it is important to note that, according to current legislation and regulations from the Ministry of Education (MEC), some data is mandatory for the maintenance of academic and administrative records.</p>
-<p>We appreciate everyone\'s understanding in ensuring compliance with the LGPD and other applicable regulations. We are available to clarify any additional questions or provide specific information about the processing of your personal data.</p>
+<p>We appreciate everyone\'s understanding in ensuring compliance with the General Data Protection Law and other applicable regulations. We are available to clarify any additional questions or provide specific information about the processing of your personal data.</p>
 <h2>Data Deletion Request Form:</h2>
 <p>To request the deletion of your data, please fill out the form below. Upon receiving your request, we will conduct an analysis and respond as quickly as possible to ensure legal compliance.</p>';
-$string['lgpd_title'] = 'Information about the LGPD';
+$string['lgpd_title'] = 'Information about the General Data Protection Law';
 $string['logologin'] = 'PNG/SVG logo for login screen';
 $string['logologin_desc'] = 'Upload the logo in PNG or SVG format to be displayed on the login screen. The logo should be clear and representative of your institution or company\'s visual identity, ensuring a professional and consistent login experience for users.';
 $string['modulename'] = 'Kopere Mobile';
